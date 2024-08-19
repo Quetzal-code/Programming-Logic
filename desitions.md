@@ -11,9 +11,16 @@ Start
 End
 
 Ex2 Read an INT and determine if it has 3 digits
-Algorithm
+Algorithm num_digits
 Var
+    INT : num
 Start
+    write "enter a int number"
+    read num
+    if num <= 999 and num >= 100 o num <= -100 and num >= -999
+        write "This int has 3 digits"
+    else if
+        write "This number does not have 3 digits "
 End
 
 
